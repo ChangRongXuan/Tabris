@@ -2,7 +2,7 @@
   "name": "mirror-tv-next",
   "version": "0.1.0",
   "private": true,
-  "gcp-build":"",
+  "gcp-build": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@apollo/client": "^3.8.0-rc.2",
     "@readr-media/react-image": "^2.2.1",
+    "@svgr/webpack": "^8.1.0",
     "@twreporter/errors": "^1.1.2",
     "axios": "^1.6.2",
     "dayjs": "^1.11.10",
@@ -23,7 +24,9 @@
     "sass": "^1.69.7",
     "stylelint-scss": "^6.0.0"
   },
-  "node": ">=18.17.0",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
